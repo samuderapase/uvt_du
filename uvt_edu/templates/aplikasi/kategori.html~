@@ -1,0 +1,9 @@
+{% extends "aplikasi/list.html"%} 
+
+{% block content %}       
+        <ul>
+            {% for kategori in kategori %}
+                <ul>{{ kategori.nama }}</ul>
+            {% endfor %}
+        </ul>
+{% endblock %}
